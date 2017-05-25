@@ -1,0 +1,41 @@
+
+body {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 75%;
+  margin: auto;
+}
+
+thead {
+  background-color: #1d96b2;
+  color: white;
+}
+
+th, td {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+td:first-child, th:first-child {
+  text-align: left;
+}
+
+td:nth-child(2), td:nth-child(3) {
+  text-align: center;
+}
+
+td:nth-child(n+4) {
+  text-align: right;
+}
+
+
+.main {
+  padding: 30px;
+}
+
+.main h1 {
+  text-align: center;
+}
